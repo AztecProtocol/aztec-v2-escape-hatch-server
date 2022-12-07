@@ -4,8 +4,10 @@
   "main": "dest/index.js",
   "license": "GPL-2.0",
   "scripts": {
-    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.es.json",
-    "start": "node dest/index.js"
+    "build": "yarn clean && yarn unzip && tsc -p tsconfig.cjs.json && tsc -p tsconfig.es.json",
+    "start": "node dest/index.js",
+    "clean": "rm -rf ./data",
+    "uncompress": "mkdir data && tar -zxvf data.tar -C ./data"
   },
   "_moduleAliases": {
     "@/barretenberg/*": "./barretenberg.js/*"
