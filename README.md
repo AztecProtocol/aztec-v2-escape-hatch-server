@@ -4,7 +4,7 @@ A server that lets the user compute hash paths to exit the Aztec V2 system that 
 
 1. Clone the repo
 ```
-git clone https://github.com/AztecProtocol/aztecv2-escape-hatch-server
+git clone git@github.com:AztecProtocol/aztecv2-escape-hatch-server.git
 ```
 2. Install 
 
