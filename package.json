@@ -7,7 +7,7 @@
     "build": "yarn clean && yarn uncompress && tsc -p tsconfig.cjs.json && tsc -p tsconfig.es.json",
     "start": "node dest/index.js",
     "clean": "rm -rf ./data",
-    "uncompress": "mkdir data && tar -zxvf data.tar -C ."
+    "uncompress": "mkdir data && tar -xvf data.tar -C ."
   },
   "_moduleAliases": {
     "@/barretenberg/*": "./barretenberg.js/*"
