@@ -6,7 +6,15 @@ A server that lets the user compute hash paths to exit the Aztec V2 system that 
 ```
 git clone git@github.com:AztecProtocol/aztecv2-escape-hatch-server.git
 ```
-2. Install 
+
+
+2. Install Git Large Files
+
+```
+https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
+```
+
+3. Install
 
 ```
 cd aztecv2-escape-hatch-server
